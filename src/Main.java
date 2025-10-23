@@ -18,6 +18,7 @@ class Main{
        }
 
         DeviceRegistery.printAllStatus();
+       //hello!
 
     }
 }
