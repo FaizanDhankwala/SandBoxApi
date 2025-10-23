@@ -1,6 +1,8 @@
 # Device API Practice Project
 
-This is a small Java project created to practice **working with classes, objects, constructors, getters/setters, and simple API-like service classes**. It simulates basic operations on devices using a `DeviceRegistry` API, similar to what you might encounter in a larger system like Device Services.
+This Java project simulates a simple **device management system** with API-like classes. It is designed for **learning object-oriented programming (OOP), getters/setters, constructors, method overriding, and simple service layers**.  
+
+It mimics patterns often used in **Device Services APIs** in larger systems, letting you practice **creating, fetching, updating, and managing objects** in a structured way.
 
 ---
 
@@ -9,7 +11,7 @@ This is a small Java project created to practice **working with classes, objects
 - [Project Overview](#project-overview)  
 - [Technologies Used](#technologies-used)  
 - [Project Structure](#project-structure)  
-- [Classes](#classes)  
+- [Classes & Code](#classes--code)  
 - [How to Run](#how-to-run)  
 - [Sample Output](#sample-output)  
 - [Learning Goals](#learning-goals)  
@@ -18,27 +20,21 @@ This is a small Java project created to practice **working with classes, objects
 
 ## Project Overview
 
-This project simulates a device management system with basic operations:
-
-- Creating and storing devices (`Device` class)  
-- Retrieving device information  
-- Updating device status  
-- Listing all devices  
-
-It also demonstrates **object-oriented programming principles**:
-
-- Constructors  
-- Getters and setters  
-- Field encapsulation  
-- Method overriding  
-- Using Maps to store and retrieve objects  
+- Manage devices using a central `DeviceRegistry`  
+- Each `Device` has an ID and status  
+- API-like methods for:
+  - Retrieving a device by ID  
+  - Updating a device’s status  
+  - Listing all devices  
+- Safe and structured OOP design  
 
 ---
 
 ## Technologies Used
 
 - Java 25  
-- IntelliJ IDEA (for development and running the project)  
+- IntelliJ IDEA (or any Java IDE)  
+- Basic Collections API (`Map`)  
 
 ---
 
